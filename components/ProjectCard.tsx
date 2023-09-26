@@ -52,7 +52,7 @@ const ProjectCard = ({ id, image, title, name, avatarUrl, userId, description, f
                     <div className="relative">
                         <img className="w-full rounded-xl" src={image} alt={title} />
                     </div>
-                    <h1 className="mt-2 cursor-pointer text-l font-bold text-gray-800">{title}</h1>
+                    <h1 className="mt-2 cursor-pointer text-l font-bold text-gray-800 line-clamp-2 ">{title}</h1>
                     <div className="my-4">
                         <div className="flex items-center space-x-1 text-slate-800">
                             {description ? (
