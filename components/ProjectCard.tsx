@@ -42,7 +42,7 @@ const ProjectCard = ({ id, image, title, name, avatarUrl, userId, description, f
     return (
         <div className="gap-1 text-justify space-y-1 pb-1 ">
 
-            <div className="max-w-sm transform rounded-xl bg-white px-2 pb-1 pt-6  shadow-lg transition duration-500 hover:scale-105">
+            <div className="max-w-sm transform rounded-xl bg-white px-2 pb-1 pt-2  shadow-lg transition duration-500 hover:scale-105">
                 <Link href={`/profile/${userId}`}>
                     <div className="flex flex-row mb-2">
                         <Image src={avatarUrl} width={28} height={24} className="rounded-full mr-2" alt="profile image" />
